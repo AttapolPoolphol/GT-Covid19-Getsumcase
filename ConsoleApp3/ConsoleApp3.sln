@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{4ADA1B08-CD46-47D9-ABCE-C125C518870D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.Core.Database", "GT.Core.Database\GT.Core.Database.csproj", "{73578AAE-6D95-4459-8EA3-CE45E1BEA39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ADA1B08-CD46-47D9-ABCE-C125C518870D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADA1B08-CD46-47D9-ABCE-C125C518870D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADA1B08-CD46-47D9-ABCE-C125C518870D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADA1B08-CD46-47D9-ABCE-C125C518870D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73578AAE-6D95-4459-8EA3-CE45E1BEA39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73578AAE-6D95-4459-8EA3-CE45E1BEA39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73578AAE-6D95-4459-8EA3-CE45E1BEA39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73578AAE-6D95-4459-8EA3-CE45E1BEA39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B60413B-58EB-44ED-BE5D-AF8F2364C6AD}
+	EndGlobalSection
+EndGlobal

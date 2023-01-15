@@ -1,0 +1,17 @@
+--Scipt CREATE Table Log--
+
+CREATE TABLE [dbo].[Log](
+	[seqId] [bigint] IDENTITY(1,1) NOT NULL,
+	[logStatus] [int] NOT NULL,
+	[timestamp] [datetime] NOT NULL,
+	[updateTime] [datetime] NULL
+) ON [PRIMARY]
+
+
+--Scipt CREATE Table Province--
+
+CREATE TABLE [dbo].[Province](
+	[Province] [nvarchar](200) NULL,
+	[ProvinceEn] [nvarchar](200) NULL,
+	[sumCases] [int] NULL
+) ON [PRIMARY]

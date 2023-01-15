@@ -1,0 +1,7 @@
+SELECT TOP (1000) [Province]
+      ,[ProvinceEn]
+      ,[sumCases]
+	  ,[PROV_CODE]
+  FROM [Covid_2019].[dbo].[Province] p
+  inner join [NOSTRA_App].[dbo].adminTH a on p.Province = a.PROV_NAMT
+  group by [Province],[ProvinceEn],[sumCases],[PROV_CODE]
